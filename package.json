@@ -1,0 +1,8 @@
+{
+    "name": "advent-of-code-with-elm",
+    "version": "1.0.0",
+    "description": "Web app to solve the daily puzzles of Advent of Code with Elm",
+    "scripts": {
+        "build": "elm make src/Main.elm --optimize --output=./.build/main.js && cp index.html .build/index.html"
+    }
+}
